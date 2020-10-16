@@ -58,7 +58,7 @@ img, .work li{
 /* customrization */
 
 .container{
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -72,7 +72,7 @@ h1 span, h3, .about li{
     font-weight: normal;
 }
 .header{
-    background: url(img/header.png) no-repeat;
+    background: url(img/header.png) no-repeat center;
     background-size: cover;
     height: 958px;
     display: flex;
@@ -102,7 +102,7 @@ h2{
 .about{
     padding-bottom: 56px;
 }
-.about img{
+.about img, .work h2{
     margin-bottom: 24px;
 }
 .about h3{
@@ -113,7 +113,6 @@ h2{
     margin: 0 auto;
 }
 .about ul{
-    margin-bottom: 56px;
     width: 380px;
     margin: 0 auto;
 }
@@ -127,9 +126,6 @@ h2{
     margin-right: 16px;
 }
 
-.brand h2{
-    margin-bottom: 16px;
-}
 .brand h3, .about h3, h1{
     margin-bottom: 32px;
 }
@@ -145,10 +141,7 @@ h2{
     margin-right: 24px;
 }
 
-.work h2{
-    margin-bottom: 24px;
-}
-.work h3, .work li{
+.about ul, .work h3, .work li{
     margin-bottom: 56px;
 }
 .work li{
